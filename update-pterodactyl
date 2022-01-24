@@ -1,12 +1,17 @@
+#!/bin/bash
+
+set -e
+SCRIPT_VERSION="v2.0.0"
+
 clear
 echo
 #print_brake 70
-echo "Axton's Pterodactyl Updater"
+echo "* Axton's Pterodactyl Updater"
 echo
 echo "* Copyright (C) 2022."
 echo "* https://github.com/axtonprice/pterodactyl-utilities"
 echo
-echo "* This script is not associated with the official Pterodactyl Project."
+echo "* This script is not associated with the official Pterodactyl project!"
 #print_brake 70
 echo
 echo "1. Update Panel"
@@ -15,14 +20,11 @@ echo "3. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    echo "Updating the Panel...."
-    cd /var/www/pterodactyl && php artisan p:upgrade
+    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/DarkNColor.sh)
 fi
 if [ $choice == "2" ]
     then
-    echo "Updating Wings...."
-    curl -L -o /usr/local/bin/wings "https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_$([[ "$(uname -m)" == "x86_64" ]] && echo "amd64" || echo "arm64")"
-    chmod u+x /usr/local/bin/wings
+    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/Addons.sh)
 fi
 if [ $choice == "3" ]
     then
