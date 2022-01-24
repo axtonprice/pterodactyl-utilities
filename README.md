@@ -2,7 +2,7 @@
 
 ### Auto Update Panel or Wings
 ```sh
-curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/update-pterodactyl.sh | sh
+curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/update-pterodactyl | sh
 ```
 
 ### Temporarily disable panel
@@ -14,4 +14,3 @@ curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/dis
 ```sh
 curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/enable-panel.sh | sh
 ```
-
