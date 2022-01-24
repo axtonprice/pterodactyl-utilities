@@ -1,6 +1,6 @@
 # Pterodactyl Utilities
 
-### Auto Update Panel or Wings
+### Auto Update Panel or Wings - DOESNT WORK YET!!!
 ```sh
 curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/update-pterodactyl | sh
 ```
