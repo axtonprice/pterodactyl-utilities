@@ -1,12 +1,12 @@
 #!/bin/bash
 
 set -e
-SCRIPT_VERSION="v2.0.0"
+SCRIPT_VERSION="v1.0.0"
 
 clear
 echo
 #print_brake 70
-echo "* Axton's Pterodactyl Updater @ $SCRIPT_VERSION"
+echo "* Axton's-Pterodactyl-Updater Script @ $SCRIPT_VERSION"
 echo
 echo "* Copyright (C) 2022."
 echo "* https://github.com/axtonprice/pterodactyl-utilities"
@@ -20,11 +20,11 @@ echo "3. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/DarkNColor.sh)
+    bash <(curl -s https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/ptero/installpanel.sh)
 fi
 if [ $choice == "2" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/finnie2006/PteroFreeStuffinstaller/V2/resources/Addons.sh)
+    bash <(curl -s https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/ptero/installwings.sh)
 fi
 if [ $choice == "3" ]
     then
