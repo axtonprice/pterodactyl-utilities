@@ -8,3 +8,4 @@ sudo systemctl restart wings
 echo "${green}✔️ Wings restarted!${reset}"
 echo ""
 echo "---> The Pterodactyl services have been restarted!${reset}"
+echo ""

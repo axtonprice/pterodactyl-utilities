@@ -1,2 +1,1 @@
-cd /var/www/pterodactyl 
-sudo php artisan p:upgrade
+cd /var/www/pterodactyl && sudo php artisan p:upgrade
