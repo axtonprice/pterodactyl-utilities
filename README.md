@@ -2,7 +2,6 @@
 #### Just incase you forget something ;)
 > Axton P.#1234
 
-
 ### Update Panel
 ```sh
 cd /var/www/pterodactyl && sudo php artisan p:upgrade
