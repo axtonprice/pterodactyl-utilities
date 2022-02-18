@@ -1,2 +1,2 @@
-cd /var/www/pterodactyl
-php artisan down
+sudo cd /var/www/pterodactyl
+sudo php artisan down
