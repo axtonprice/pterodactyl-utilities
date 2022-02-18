@@ -10,7 +10,7 @@ sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/mai
 sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/updatewings.sh | sh
 ```
 
-### Restart System Services
+### Restart Ptero Services
 ```sh
 sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/restartservices.sh | sh
 ```
