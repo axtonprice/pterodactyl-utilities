@@ -2,12 +2,12 @@
 
 ### Update Panel
 ```sh
-bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/installpanel.sh)
+bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/updatepanel.sh)
 ```
 
 ### Update Wings
 ```sh
-bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/installwings.sh)
+bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/updatewings.sh)
 ```
 
 ### Temporarily disable panel
