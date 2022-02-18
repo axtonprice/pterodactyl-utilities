@@ -15,12 +15,12 @@ sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/mai
 sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/restartservices.sh | sh
 ```
 
-### Temporarily disable panel
+### Enable Maintenance Mode
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/disable-panel.sh | sh
+cd /var/www/pterodactyl && sudo php artisan down
 ```
 
-### Re-enable panel:
+### Disable Maintenance Mode
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/enable-panel.sh | sh
+cd /var/www/pterodactyl && sudo php artisan up
 ```
