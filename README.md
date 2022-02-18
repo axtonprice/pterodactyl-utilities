@@ -1,8 +1,13 @@
 # Pterodactyl Utilities
 
-### Auto Update Panel or Wings - DOESNT WORK YET!!!
+### Update Panel
 ```sh
-curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/update-pterodactyl | sh
+bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/ptero/installpanel.sh)
+```
+
+### Update Wings
+```sh
+bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/ptero/installwings.sh)
 ```
 
 ### Temporarily disable panel
