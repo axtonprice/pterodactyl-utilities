@@ -1,7 +1,11 @@
-echo "--> Attempting to restart Apache..."
+echo "Attempting to restart Apache..."
 sudo systemctl restart apache2
-echo "--> Attempting to restart Nginx..."
+echo "✔️ Apache2 restarted!"
+echo "Attempting to restart Nginx..."
 sudo systemctl restart nginx
-echo "--> Attempting to restart Wings..."
+echo "✔️ Nginx restarted!"
+echo "Attempting to restart Wings..."
 sudo systemctl restart wings
+echo "✔️ Wings restarted!"
+echo ""
 echo "---> The Pterodactyl services have been restarted!"
