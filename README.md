@@ -3,12 +3,14 @@
 
 ### Update Panel
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/updatepanel.sh | sh
+cd /var/www/pterodactyl && sudo php artisan p:upgrade
 ```
 
 ### Update Wings
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/updatewings.sh | sh
+curl -L -o /usr/local/bin/wings "https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_$([[ "$(uname -m)" == "x86_64" ]] && echo "amd64" || echo "arm64")"
+chmod u+x /usr/local/bin/wings
+systemctl restart wings
 ```
 
 ### Restart Ptero Services
