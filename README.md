@@ -12,15 +12,15 @@ sudo bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilit
 
 ### Restart System Services
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/restartservices.sh | sh
+sudo bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/restartservices.sh)
 ```
 
 ### Temporarily disable panel
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/disable-panel.sh | sh
+sudo bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/disable-panel.sh)
 ```
 
 ### Re-enable panel:
 ```sh
-sudo curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/enable-panel.sh | sh
+sudo bash <(curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/enable-panel.sh)
 ```
