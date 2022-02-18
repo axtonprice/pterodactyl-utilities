@@ -1,6 +1,7 @@
-sudo systemctl restart nginx
-sudo systemctl restart apache
+echo "--> Attempting to restart Apache..."
 sudo systemctl restart apache2
+echo "--> Attempting to restart Nginx..."
+sudo systemctl restart nginx
+echo "--> Attempting to restart Wings..."
 sudo systemctl restart wings
-clear
 echo "---> The Pterodactyl services have been restarted!"
