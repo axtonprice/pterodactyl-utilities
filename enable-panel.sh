@@ -1,2 +1,2 @@
-sudo cd /var/www/pterodactyl
+cd /var/www/pterodactyl
 sudo php artisan up
