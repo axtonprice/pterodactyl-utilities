@@ -12,4 +12,4 @@ echo "${blue}Attempting to restart Wings...${reset}"
 sudo systemctl restart wings
 echo "${green}✔️ Wings restarted!${reset}"
 echo ""
-echo "${green}---> The Pterodactyl services have been restarted!${reset}"
+echo "---> The Pterodactyl services have been restarted!${reset}"
