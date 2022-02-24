@@ -16,7 +16,9 @@ systemctl restart wings
 
 ### Restart Ptero Services
 ```sh
-curl https://raw.githubusercontent.com/axtonprice/pterodactyl-utilities/main/restartservices.sh | sh
+sudo systemctl restart nginx
+sudo systemctl restart apache2
+sudo systemctl restart wings
 ```
 
 ### Enable Maintenance Mode
